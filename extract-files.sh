@@ -16,6 +16,9 @@ function blob_fixup() {
         vendor/lib64/libgf_ca.so)
             sed -i 's|/system/etc/firmware|/vendor/firmware\x0\x0\x0\x0|g' "${2}"
             ;;
+        vendor/lib/libMiWatermark.so)
+            "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
+            ;;
     esac
 }
 

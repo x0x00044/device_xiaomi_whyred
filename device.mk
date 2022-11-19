@@ -19,7 +19,8 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    libcamera_sdm660_shim
+    libcamera_sdm660_shim \
+    libpiex_shim
 
 # Dynamic Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false

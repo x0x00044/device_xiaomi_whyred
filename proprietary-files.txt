@@ -18,7 +18,7 @@ vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # Camera - from V10.3.5.0.PEICNXM
-vendor/lib/hw/camera.sdm660.so|6f707df2ad6d1483c0a27afaab97e1b578400afd|b372596587eb0552e0f75a073b542a31f1ab0cd1
+vendor/lib/hw/camera.sdm660.so|b372596587eb0552e0f75a073b542a31f1ab0cd1
 vendor/lib/libSonyIMX376C3RmscLibrary.so|b3138daf9b93c645b89b67d28c3f6fadfbbfdb42
 vendor/lib/libSonyIMX376KRmscLibrary.so|2f7792d51bf476352590b8643e43762f68cadeef
 vendor/lib/libXMFD_AgeGender.so|8fd7c01de2f6c58749fcc333114b5622a2c2152b
@@ -631,7 +631,7 @@ vendor/lib/libois_bu63165.so
 vendor/lib/libois_lc898122.so
 
 # Camera watermark - from jasmine V11.0.8.0.QDIMIXM
-vendor/lib/libMiWatermark.so|fe09202b8283cd88f86e96a5ef52b4db94b7ade5
+vendor/lib/libMiWatermark.so|f765b79487296de1e302703b0f5c31746cab6edb
 vendor/lib/libft2vendor.so|1332ed2141660b9372c959ca1155575c25a73751
 
 # Display calibration
